@@ -1,0 +1,28 @@
+
+/* regole per la tabella */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0;
+    font-size: 18px;
+    text-align: left;
+}
+
+/* regole per le intestazioni della tabella */
+th,
+td {
+    padding: 12px 15px;
+    border: 1px solid #ddd;
+}
+
+/* regole per le righe pari della tabella */
+tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+/* regole per le immagini */
+td img {
+    width: 50px;
+    height: auto;
+    border-radius: 5px;
+}
