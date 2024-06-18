@@ -58,13 +58,14 @@ for(let i = 0; i < arrTeam.length; i++){
 
     //stampare in DOM come cards e con stringhe trasformate in immagini
     let itemCard = `<div class="card">
-                    <img src="${members.image}" alt="">
-                    <div class="text"> 
-                    <h4>${members.name}</h4>
-                    <h5>${members.role}</h5> 
-                </div>`
+                        <img src="${members.image}" alt="">
+                        <div class="text"> 
+                            <h4>${members.name}</h4>
+                            <h5>${members.role}</h5>
+                        </div>
+                    </div>`
     
-                cardMembers.innerHTML += itemCard;
+    cardMembers.innerHTML += itemCard;
 
 
 }
