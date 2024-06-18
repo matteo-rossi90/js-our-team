@@ -1,0 +1,63 @@
+/* regole generali */
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    font-family: 'Arial', Courier, monospace;
+}
+
+body{
+    background-color: #F5F5F1;
+}
+
+/* regole parte superiore*/
+h3,
+p{
+    margin: 20px 0;
+}
+
+/* regole contenitore principale */
+#container{
+    width: 80%;
+    margin: 0 auto;
+    text-align:center;
+}
+
+/* regole contenitore cards */
+#box-container{
+    margin: 10px auto;
+    width: 70%;
+}
+
+/* regole delle cards*/
+.row{
+    gap: 15px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin: 20px 0;
+}
+
+.card{
+    width: calc(100% / 3 - 10px);
+    background-color: white;
+}
+
+.card img{
+    width: 100%;
+}
+
+/* regole testi delle cards */
+.text{
+    padding: 10px;
+}
+
+h4,
+h5{
+    margin: 10px 0;
+
+}
+
+h5{
+    font-weight: none;
+}
